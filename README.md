@@ -1,6 +1,6 @@
 # TimeLens-XL: Real-time Event-based Video Frame Interpolation with Large Motion
 
-![avatar](docs/images/teaser.jpg)
+![](docs/static/images/teaser.png)
 
 
 [[Project Page]()] [[Paper Link]()] [[Dataset]()]
