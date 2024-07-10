@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>TimeLens-XL: Real-time Event-based Video Frame Interpolation with Large Motion</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">TimeLens-XL: Real-time Event-based Video Frame Interpolation with Large Motion</h1>
+            <h3 class="title is-2 publication-conf", style="color: grey;">ECCV 2024</h3>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=JwQLEocAAAAJ&hl=en" target="_blank">Yongrui Ma</a><sup>1,2</sup>,</span>
+              <span class="author-block">
+                  <a href="https://scholar.google.com.hk/citations?user=5hsEmuQAAAAJ&hl=zh-CN" target="_blank">Shi Guo</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="https://yutian10.github.io/" target="_blank">Yutian Chen</a><sup>2,1</sup>,</span>
+              <span class="author-block">
+                <a href="https://tianfan.info/" target="_blank">Tianfan Xue</a><sup>1</sup>
+              <span class="author-block">
+                <a href="https://www.gujinwei.org/" target="_blank">Jinwei Gu</a><sup>1</sup>,</span>
+              </span>
+              </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</sup>The Chinese University of Hong Kong</span> and <sup>2</sup>Shanghai AI Laboratory
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <!-- PDF Link. -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2402.11957.pdf"
+                           class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                              <i class="fas fa-file-pdf"></i>
+                          </span>
+                          <span>Paper</span>
+                        </a>
+                      </span>
+                      <!-- Video Link. -->
+                      <span class="link-block">
+                        <a href="https://youtu.be/HrfxliOQJSg?si=JJKigs5mw9bLhgqp"
+                           class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                              <i class="fab fa-youtube"></i>
+                          </span>
+                          <span>Video</span>
+                        </a>
+                      </span>
+                      <!-- Code Link. -->
+                      <span class="link-block">
+                        <a href="https://github.com/OpenImagingLab/emm"
+                           class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                              <i class="fab fa-github"></i>
+                          </span>
+                          <span>Code</span>
+                          </a>
+                      </span>
+                      <!-- Dataset Link. -->
+                      <span class="link-block">
+                        <a href="https://drive.google.com/drive/folders/1ssEE1wvnBt4EZjxoCcfoIX8FzOsTIKN8?usp=drive_link"
+                           class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                              <i class="far fa-images"></i>
+                          </span>
+                          <span>Data</span>
+                          </a>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img class="image" src="static/images/teaser.jpg"/>
+      <div class="content has-text-justified">
+<!--      <h2 class="subtitle has-text-centered">-->
+        We present TimeLens-XL Net (TXLNet), a real-time video frame interpolation method for large motion with a hybrid neuromorphic camera. Taking two consecutive frames and the events as input, our methods estimate the complete dense optical flow fields within the period (shown in the second row, drawing motion trajectories from time 0 to 1), with which we can then flexibly sample the optical flow at any time step between input frames for video frame interpolation. As shown, our proposed methods can recover motion trajectories of large complex motion (nonlinear, non-rigid, and severely occluded), thus, outperforming state-of-the-art prior work with only 1/5 computational cost.
+<!--      </h2>-->
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video Frame Interpolation (VFI) aims to predict intermediate frames between consecutive low frame rate inputs. To handle the real-world complex motion between frames, event cameras, which capture high-frequency brightness changes at micro-second temporal resolution, are used to aid interpolation, denoted as Event-VFI. One critical step of Event-VFI is optical flow estimation. Prior methods that adopt either a two-segment formulation or a parametric trajectory model cannot correctly recover large and complex motions between frames, which suffer from accumulated error in flow estimation. To solve this problem, we propose TimeLens-XL, a physically grounded lightweight network that decomposes large motion between two frames into a sequence of small motions for better accuracy. It estimates the entire motion trajectory recursively and samples the bi-directional flow for VFI. Benefiting from the accurate and robust flow prediction, intermediate frames can be efficiently synthesized with simple warping and blending. As a result, the network is extremely lightweight, with only 1/5~1/10 computational cost and model size of prior works, while also achieving state-of-the-art performance on several challenging benchmarks. To our knowledge, TimeLens-XL is the first real-time (27fps) Event-VFI algorithm at a resolution of 1280x720 using a single RTX 3090 GPU. Furthermore, we have collected a new RGB+Event dataset (HQ-EVFI) consisting of more than 100 challenging scenes with large complex motions and accurately synchronized high-quality RGB-EVS streams. HQ-EVFI addresses several limitations presented in prior datasets and can serve as a new benchmark. Both the code and dataset will be released upon publication.
+          </p>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+<!--          <iframe src="https://youtu.be/HrfxliOQJSg?si=JJKigs5mw9bLhgqp"-->
+<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen height="30%"></iframe>-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HrfxliOQJSg?si=JJKigs5mw9bLhgqp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<!-- End paper abstract -->
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Video</h2>
+      <video poster="" id="tree" autoplay controls muted loop height="60%"> -->
+        <!-- Your video here -->
+        <!-- <source src="static/videos/video_supp.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Magnification results on real-world video.
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+
+
+<!--BibTex citation -->
+<!--  <section class="section" id="BibTeX">-->
+<!--    <div class="container is-max-desktop content">-->
+<!--      <h2 class="title">BibTeX</h2>-->
+<!--      <pre><code>@article{chen2024eventbased,-->
+<!--      title={Event-Based Motion Magnification},-->
+<!--      author={Yutian Chen and Shi Guo and Fangzheng Yu and Feng Zhang and Jinwei Gu and Tianfan Xue},-->
+<!--      journal={arXiv preprint arXiv:2402.11957},-->
+<!--      year={2024}-->
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
+
