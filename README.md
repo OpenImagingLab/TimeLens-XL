@@ -7,8 +7,18 @@
 
 This is the codebase for our paper TimeLens-XL, which has been accepted by ECCV2024. In this paper, we propose a lightweight netowrk for Event-VFI which is able to interpoalte for large motions in realtime at 720p resolution. We provide pretrained weights, code for evaluation for both our TLXNet, TLXNet+, and state-of-the-art methods.
 
-## Quick Start
+Please email Mr. Yongrui Ma (yongrayma@gmail.com) for questions related to this work.
 
+## Update History
+Finished:
+* Refresh readme file to fix some existing bugs
+
+Coming soon:
+
+* Will release all experimental results and corresponding weights by the end of January;
+* Will release generated synthetic datasets by the beginning of February 2025.
+
+## Quick Start
 ### Environment
 Please download dependency packages by
 ```bash

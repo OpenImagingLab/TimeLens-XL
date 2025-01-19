@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="dragdiff" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="dragdiff" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="testeccv_release" project-jdk-type="Python SDK" />
 </project>
